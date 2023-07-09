@@ -43,7 +43,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/client/components/error-boundary.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -51,7 +51,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -59,7 +59,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/client/components/app-router.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -67,7 +67,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -75,7 +75,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/client/components/layout-router.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -83,7 +83,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -91,7 +91,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -99,7 +99,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -107,7 +107,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -115,7 +115,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -123,7 +123,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
       "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
       "name": "*",
       "chunks": [
@@ -131,7 +131,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Nunito\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}": {
+    "/home/rumbleftw/Documents/Codes/h4b/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Nunito\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}": {
       "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Nunito\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}",
       "name": "*",
       "chunks": [
@@ -139,7 +139,7 @@
       ],
       "async": false
     },
-    "/home/dominatrix/Documents/Codes/h4B/src/app/globals.css": {
+    "/home/rumbleftw/Documents/Codes/h4b/src/app/globals.css": {
       "id": "(app-client)/./src/app/globals.css",
       "name": "*",
       "chunks": [
@@ -149,8 +149,8 @@
     }
   },
   "entryCSSFiles": {
-    "/home/dominatrix/Documents/Codes/h4B/src/app/page": [],
-    "/home/dominatrix/Documents/Codes/h4B/src/app/layout": [
+    "/home/rumbleftw/Documents/Codes/h4b/src/app/page": [],
+    "/home/rumbleftw/Documents/Codes/h4b/src/app/layout": [
       "static/css/app/layout.css"
     ]
   }
