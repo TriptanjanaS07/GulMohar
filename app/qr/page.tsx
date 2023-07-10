@@ -6,7 +6,7 @@ const QrCode = async () => {
     return (
         <div className="flex mt-8 flex-col items-center h-screen">
             <h2 className="mt-8">Your wallet id: {currentUser.wallet}</h2>
-            <QRCode className="mt-8"value={currentUser.wallet}/>
+            <QRCode className="mt-8" value={currentUser.wallet}/>
         </div>
     )
 }
