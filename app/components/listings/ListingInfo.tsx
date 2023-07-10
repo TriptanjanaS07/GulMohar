@@ -48,7 +48,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
           "
         >
           <div>Hosted by {user?.name}</div>
-          <Avatar src='/public/images/placeholder.jpg'/>
+          <Avatar src={user?.image}/>
         </div>
         <div className="
             flex 

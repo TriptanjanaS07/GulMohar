@@ -80,7 +80,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
         >
           <AiOutlineMenu />
           <div className="hidden md:block">
-            <Avatar src='/public/images/placeholder.jpg' />
+            <Avatar src={currentUser?.image}/>
           </div>
         </div>
       </div>
@@ -103,8 +103,8 @@ const UserMenu: React.FC<UserMenuProps> = ({
             {currentUser ? (
               <>
                 <MenuItem 
-                  label="My trips" 
-                  onClick={() => router.push('/trips')}
+                  label="RSVPed" 
+                  onClick={() => router.push('/rsvp')}
                 />
                 <MenuItem 
                   label="My favorites" 
@@ -115,19 +115,19 @@ const UserMenu: React.FC<UserMenuProps> = ({
                   onClick={() => router.push('/reservations')}
                 />
                 <MenuItem 
-                  label="My properties" 
-                  onClick={() => router.push('/properties')}
-                />
-                <MenuItem 
-                  label="Distribute Tokens" 
-                  onClick={() => router.push('/qr')}
+                  label="My Events" 
+                  onClick={() => router.push('/events')}
                 />
                 <MenuItem 
                   label="Get Tokens" 
+                  onClick={() => router.push('/qr')}
+                />
+                <MenuItem 
+                  label="Distribute tokens" 
                   onClick={() => router.push('/scan')}
                 />
                 <MenuItem 
-                  label="Airbnb your home" 
+                  label="Create an Event" 
                   onClick={rentModal.onOpen}
                 />
                 <hr />
