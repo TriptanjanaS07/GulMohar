@@ -19,12 +19,12 @@ const PropertiesPage = async () => {
 
   const listings = await getListings({ userId: currentUser.id });
 
-  if (listings.length === 0) {
+  if (listings.length === 0 ) {
     return (
       <ClientOnly>
         <EmptyState
-          title="No properties found"
-          subtitle="Looks like you have no properties."
+          title="No active event at the moment :("
+          subtitle="Looks your events are yet to be held!"
         />
       </ClientOnly>
     );
