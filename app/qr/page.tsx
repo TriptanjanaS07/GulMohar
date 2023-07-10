@@ -1,33 +1,14 @@
-import { useState } from 'react';
-import EmptyState from "@/app/components/EmptyState";
 import getCurrentUser from "@/app/actions/getCurrentUser";
-import getListings from "@/app/actions/getListings";
-import QRCode from 'qrcode.react';
+import QRCode from 'react-qr-code';
 
-
-const QrPage = async() => {
+const QrCode = async () => {
     const currentUser = await getCurrentUser();
-
-    if (!currentUser) {
-        return <EmptyState
-        title="Unauthorized"
-        subtitle="Please login"
-        />
-    }
-    // Implement date check
-
-    // const listings = await getListings({ userId: currentUser.id });
-    // for (let i = 0; i < listings.length; i++) {
-    //     const obj = listings[i];
-    //     console.log(obj.id);
-    //   }
-
-
     return (
-        <div>
-           QR
+        <div className="flex mt-8 flex-col items-center h-screen">
+            <h2 className="mt-8">Your wallet id: {currentUser.wallet}</h2>
+            <QRCode className="mt-8"value={currentUser.wallet}/>
         </div>
-    );
+    )
 }
 
-export default QrPage;
+export default QrCode;
