@@ -119,6 +119,14 @@ const UserMenu: React.FC<UserMenuProps> = ({
                   onClick={() => router.push('/properties')}
                 />
                 <MenuItem 
+                  label="Distribute Tokens" 
+                  onClick={() => router.push('/qr')}
+                />
+                <MenuItem 
+                  label="Get Tokens" 
+                  onClick={() => router.push('/scan')}
+                />
+                <MenuItem 
                   label="Airbnb your home" 
                   onClick={rentModal.onOpen}
                 />
