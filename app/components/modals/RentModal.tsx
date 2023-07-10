@@ -156,8 +156,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Where is your place located?"
-          subtitle="Help guests find you!"
+          title="Where is your event taking place?"
+          subtitle="Help volunteers find you!"
         />
         <CountrySelect 
           value={location} 
@@ -173,8 +173,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Add a photo of your place"
-          subtitle="Show guests what your place looks like!"
+          title="Add a photo of your location"
+          subtitle="Show volunteers what your event location looks like!"
         />
         <ImageUpload
           onChange={(value) => setCustomValue('imageSrc', value)}
@@ -188,8 +188,8 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="How would you describe your place?"
-          subtitle="Short and sweet works best!"
+          title="How would you describe your event?"
+          subtitle="Tell everyone all about the event!"
         />
         <Input
           id="title"
@@ -216,12 +216,12 @@ const RentModal = () => {
     bodyContent = (
       <div className="flex flex-col gap-8">
         <Heading
-          title="Now, set your price"
-          subtitle="How much do you charge per night?"
+          title="Now, set your reward"
+          subtitle="How much do you reward volunteers for participation?"
         />
         <Input
           id="price"
-          label="Price"
+          label="MHR"
           formatPrice 
           type="number" 
           disabled={isLoading}
@@ -237,7 +237,7 @@ const RentModal = () => {
     <Modal
       disabled={isLoading}
       isOpen={rentModal.isOpen}
-      title="Airbnb your home!"
+      title="Host Your Event!"
       actionLabel={actionLabel}
       onSubmit={handleSubmit(onSubmit)}
       secondaryActionLabel={secondaryActionLabel}
