@@ -35,7 +35,8 @@ const RegisterModal= () => {
     defaultValues: {
       name: '',
       email: '',
-      password: ''
+      password: '',
+      wallet: '',
     },
   });
 
@@ -87,6 +88,14 @@ const RegisterModal= () => {
         id="password"
         label="Password"
         type="password"
+        disabled={isLoading}
+        register={register}
+        errors={errors}
+        required
+      />
+      <Input
+        id="wallet"
+        label="Wallet Address"
         disabled={isLoading}
         register={register}
         errors={errors}
