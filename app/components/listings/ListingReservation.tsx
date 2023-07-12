@@ -39,10 +39,10 @@ const ListingReservation: React.FC<
       <div className="
       flex flex-row items-center gap-1 p-4">
         <div className="text-2xl font-semibold">
-          $ {price}
+          MHR {price}
         </div>
         <div className="font-light text-neutral-600">
-          night
+          for Attending
         </div>
       </div>
       <hr />
@@ -76,7 +76,7 @@ const ListingReservation: React.FC<
           Total
         </div>
         <div>
-          $ {totalPrice}
+          MHR {totalPrice}
         </div>
       </div>
     </div>

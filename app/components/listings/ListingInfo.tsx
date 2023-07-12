@@ -59,15 +59,7 @@ const ListingInfo: React.FC<ListingInfoProps> = ({
             text-neutral-500
           "
         >
-          <div>
-            guests
-          </div>
-          <div>
-            rooms
-          </div>
-          <div>
-            bathrooms
-          </div>
+
         </div>
       </div>
       <hr />
