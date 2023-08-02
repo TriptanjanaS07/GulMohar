@@ -23,3 +23,27 @@ body,
   font-size: 16px !important;
   width: 100% !important;
 }
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  /* You can customize the border color and width */
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  /* Add any other styles you want for the name */
+}
