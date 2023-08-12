@@ -15,7 +15,7 @@ const ListingPage = async () => {
     <ClientOnly>
       <div className="profile-container">
         <div className="profile-image">
-          <img src=".\public\images\placeholder.jpg" alt="Profile" />
+          <img id="profileImage" src="https://o.remove.bg/downloads/0a8d40f8-c52b-424d-8d78-87123a34f5ca/download-removebg-preview.png" alt="Profile" />
         </div>
         <div className="profile-name">
           {currentUser.name}
